@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "568157374327",
+    "firebase_url": "https://safecash-1998.firebaseio.com",
+    "project_id": "safecash-1998",
+    "storage_bucket": "safecash-1998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568157374327:android:1e9341c2e46b29f8",
+        "android_client_info": {
+          "package_name": "com.savecash.safekash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568157374327-v6mnhvr8mr2fr999oj5t2nhsu2sd17fa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.savecash.safekash",
+            "certificate_hash": "6ea37eb82ba9df9e9968edd2d01e68a9c7ededd5"
+          }
+        },
+        {
+          "client_id": "568157374327-fu8ikjqqdqkqp2aav15igdd0fjqicm4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoKzpLOI4MN2bOr1mqkfiv9tLio3f19E0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568157374327-fu8ikjqqdqkqp2aav15igdd0fjqicm4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

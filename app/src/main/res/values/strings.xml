@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Safekash</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="home">Home</string>
+    <string name="sign_up">sign_up</string>
+    <string name="name">name</string>
+    <string name="password">password</string>
+    <string name="phone_number">phone_number</string>
+    <string name="email">email</string>
+    <string name="confirm_password">confirm_password</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="user_name_error">Please provide UserName</string>
+    <string name="user_name_error_length">Provide UserName with four minimum character</string>
+    <string name="password_error">Please provide your password</string>
+    <string name="password_length_error">Please enter password with six minimum  character</string>
+    <string name="email_error">Please provide your email</string>
+    <string name="error_invalid_mail">Please provide a valid email</string>
+    <string name="phone_number_error">Please provide your phone number</string>
+    <string name="phone_number_length_error">Enter a valid phone number</string>
+    <string name="confrim_password_error">The two password does not match</string>
+    <string name="dialog_title">Loading..</string>
+    <string name="dialog_message">Please wait</string>
+    <string name="toast_error">Something  went wrong</string>
+    <string name="toast_success">Account created successfuly</string>
+    <string name="data_base_user">users</string>
+    <string name="verification_email">Verification link have been send</string>
+    <string name="failed_email">Failed to send link</string>
+    <string name="loginFragment_Log">Starting LoginFragment</string>
+</resources>

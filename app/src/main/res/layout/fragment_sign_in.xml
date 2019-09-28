@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_mobile_2"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+       android:layout_height="wrap_content"
+        android:background="@drawable/shapes"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:id="@+id/relativeLayout2"
+
+      >
+
+        <EditText
+            android:id="@+id/loginEdAccount"
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@null"
+            android:drawableLeft="@drawable/icons8_user_24px"
+            android:drawablePadding="8dp"
+            android:hint="Account Number"
+            android:inputType="textPersonName"
+            android:textColorLink="#00070707"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/loginEdPass"
+            android:layout_below="@id/loginEdAccount"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:drawableLeft="@drawable/icons8_lock_24px_5"
+            android:drawablePadding="0dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/but_sign_in"
+        android:layout_below="@id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:text="Sign in"
+        android:textSize="15dp"
+      />
+
+    <TextView
+        android:id="@+id/forgotten_pin"
+        android:layout_below="@id/but_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="Forgotten Pin"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+       />
+
+    <ProgressBar
+        android:id="@+id/loginProBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="181dp"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="5dp"
+   />
+
+
+</RelativeLayout>
