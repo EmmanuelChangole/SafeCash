@@ -15,25 +15,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name="Profile"></activity>
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-9190831403912836~7358674798" />
 
-        <activity android:name=".ConfirmCode" />
+        <activity android:name=".activities.ConfirmCode" />
         <activity android:name=".activities.Verification" />
         <activity
             android:name=".activities.SendMoney"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name=".Contacts"
+            android:name=".utils.Contacts"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
-            android:name=".Notification"
+            android:name=".activities.Notification"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity android:name=".activities.DrawableActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".activities.DashBoardActivity"  android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
             <intent-filter>

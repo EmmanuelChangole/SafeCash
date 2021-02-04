@@ -17,6 +17,8 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.savecash.safekash.R;
 import com.savecash.safekash.activities.DashBoardActivity;
+import com.savecash.safekash.activities.MainActivity;
+import com.savecash.safekash.activities.Verification;
 import com.savecash.safekash.models.Users;
 
 public class FireBaseMethods
@@ -139,10 +141,10 @@ public class FireBaseMethods
     {
         if(currentUser==null)
         {
-           /* Intent login=new Intent(context, MainActivity.class);
+          /* Intent login=new Intent(context, Verification.class);
             login.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
-            context.startActivity(login);*/
-
+            context.startActivity(login);
+*/
         }
 
 
